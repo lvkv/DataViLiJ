@@ -1,2 +1,4 @@
 # DataViLiJ
-A JavaFX data visualization project for my Spring 2018 Computer Science III (CSE 219) class
+A JavaFX data visualization project complete with multithreading, support for exporting visualizations, and unit tests.
+
+![alt text](screenshot.PNG "Screenshot")
