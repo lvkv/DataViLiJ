@@ -1,0 +1,41 @@
+/* Visualization Library in Java (ViLiJ) */
+
+.chart-plot-background {
+    -fx-border-color: BLACK; 
+    -fx-border-style: solid; 
+    -fx-border-width: 4px; 
+}
+
+.axis {
+    -fx-font-size: 1.4em;    
+    -fx-tick-label-fill: #914800;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.axis-tick-mark {
+    -fx-stroke: FORESTGREEN;
+    -fx-stroke-width: 3; 
+}
+
+#serie-select {
+    .chart-symbol{
+        -fx-stroke: transparent;
+    }
+}
+
+#serie-select {
+    -fx-stroke: transparent;
+}
+
+#series-select > .chart-symbol {
+    -fx-stroke: transparent;
+}

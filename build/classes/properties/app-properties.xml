@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="DATA_CSS_PATH" value="data-vilij.css"/>
+        <property name="TRANS_CLASS" value="serie-select"/>
+        
+        <!-- BUTTON TEXT -->
+        <property name="DISPLAY_BUTTON_TEXT" value="Display"/>
+        <property name="READONLY" value="Read-Only"/>
+        <property name="AVGTXT" value="Average Value"/>        
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+        <property name="TAKESCREENSHOT" value="Take Screenshot"/>
+        <property name="CHART" value="Chart"/>
+        <property name="LOADEDDATAINFO" value="Loaded Data Information"/>
+        <property name="CONSISTSOF" value="Loaded data consists of "/>
+        <property name="IWANTTOSLEEP" value=" line(s) of data. Showing the first 10"/>
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+        <property name="INVALID_DATA_MESSAGE" value="Ensure that data is formatted correctly and try again."/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="INVALID_DATA_TITLE" value="Invalid Data Format"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="IMGFILE" value="Image File"/>
+        <property name="IMGEXT" value=".png"/>
+        <property name="DATA_FILE_EXT" value=".tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="TEXT_AREA" value="Data File"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        <property name="CHART_LABEL" value="Data Visualization"/>
+
+    </property_list>
+    <property_options_list/>
+</properties>

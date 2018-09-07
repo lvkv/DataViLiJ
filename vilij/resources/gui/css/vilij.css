@@ -1,0 +1,10 @@
+/* Visualization Library in Java (ViLiJ) */
+.toolbar-button {
+    -fx-pref-width: 360px;
+    -fx-pref-height: 360px;
+    -fx-max-width: 360px;
+    -fx-max-height: 360px;
+    -fx-min-width: 360px;
+    -fx-min-height: 360px;
+    -fx-background-color: transparent;
+}
